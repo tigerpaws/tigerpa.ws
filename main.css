@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-color:#ccc;
+	color:#fff;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	line-height:16px;
+}
+
+.name {
+	line-height:18px;
+	font: 300 14px "Helvetica Neue";
+	color: #555;
+	padding-bottom: 3px;
+}
+
+.contact {
+	font: 300 11px "Helvetica Neue";
+	color: #555;
+}
+
+#header {
+	height:57px;
+	margin: 0px 0px 0px 0px;
+}
+
+#header a:link {color:#fff; text-decoration:none}      /* unvisited link */
+#header a:visited {color:#fff; text-decoration:none}  /* visited link */
+#header a:hover {color:#fff; text-decoration:none}  /* mouse over link */
+#header a:active {color:#fff; text-decoration:none}  /* selected link */
+
+#title {
+	padding: 14px 20px 0px 20px;
+	font: 300 24px "Courier New";
+}
+
+#content {
+	margin:0px auto auto 0px;
+	background-color:#fff;
+	text-align:left;
+	color:#000;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: 300 24px "Helvetica Neue";
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: 300 12px "Helvetica Neue";
+}
+
+#content a:link {color:#f08; text-decoration:underline}      /* unvisited link */
+#content a:visited {color:#f08; text-decoration:underline}  /* visited link */
+#content a:hover {color:#f08; text-decoration:underline}  /* mouse over link */
+#content a:active {color:#f08; text-decoration:underline}  /* selected link */
+
+#sidebar {
+	width: 180px;
+	position: absolute;
+	left: 0px;
+	margin:0px 0px 0px 0px;
+	padding: 20px 0px 20px 20px;
+	text-align:left;
+	background-color:#fff;
+	font: 300 12px "Helvetica Neue";
+}
+
+#main {
+	margin:0px 0px 0px 220px;
+	padding: 40px 0px 120px 0px;
+	text-align:left;
+	background-color:#fff;
+}
+
+#footer {
+	height:25px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px 0px 20px;
+	font: 300 10px "Courier New";
+	text-align:center;
+}
