@@ -46,6 +46,11 @@ p {
 	color:#000;
 }
 
+#sidebar a:link {color:#f08; text-decoration:underline}      /* unvisited link */
+#sidebar a:visited {color:#f08; text-decoration:underline}  /* visited link */
+#sidebar a:hover {color:#f08; text-decoration:underline}  /* mouse over link */
+#sidebar a:active {color:#f08; text-decoration:underline}  /* selected link */
+
 h2 {
 	margin: 0;
 	padding: 0;
@@ -57,13 +62,15 @@ h3 {
 	margin: 0;
 	padding: 0;
 	color: #555;
-	font: 300 12px "Helvetica Neue";
+	font: 300 20px "Helvetica Neue";
 }
 
-#content a:link {color:#f08; text-decoration:underline}      /* unvisited link */
-#content a:visited {color:#f08; text-decoration:underline}  /* visited link */
-#content a:hover {color:#f08; text-decoration:underline}  /* mouse over link */
-#content a:active {color:#f08; text-decoration:underline}  /* selected link */
+#main a:link {color:#555; text-decoration:none}      /* unvisited link */
+#main a:visited {color:#555; text-decoration:none}  /* visited link */
+#main a:hover {color:#555; text-decoration:none}  /* mouse over link */
+#main a:active {color:#555; text-decoration:none}  /* selected link */
+
+
 
 #sidebar {
 	width: 180px;
@@ -77,10 +84,18 @@ h3 {
 }
 
 #main {
+	min-height:400px;
 	margin:0px 0px 0px 220px;
 	padding: 40px 0px 120px 0px;
 	text-align:left;
 	background-color:#fff;
+}
+
+.main_text {
+	width: 800px;
+	padding: 5px 0px 5px 0px;
+	color: #555;
+	font: 300 12px "Helvetica Neue";
 }
 
 #footer {
